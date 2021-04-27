@@ -5,8 +5,18 @@
 
 //api1.addClass('green')
 
-jQuery('.test')
-.find('.child')
-.addClass('red')
-.addClass('green')
-.addClass('blue')
+//jQuery('.test')
+//.find('.child')
+//.addClass('red')
+//.addClass('green')
+//.end()
+//.addClass('yellow')
+
+//const x=jQuery('.test').find('.child')
+//x.each((div)=>console.log(div))
+
+//const x=jQuery('.test')
+//x.parent().print()
+
+const x=jQuery('.test')
+x.children().print()
